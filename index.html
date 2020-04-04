@@ -1,50 +1,160 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>Start Tree</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+    <style>
+      #topics {
+        color: #d1ffe6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-background-image="assets/images/first.jpg">
+          <textarea data-template>
+						# Start Tree
+						What kind of beast? *another startup?*
+					</textarea
+          >
+        </section>
+        <section data-markdown data-background-color="#00B76F" id="topics">
+          <textarea data-template>
+						### Topics
+						- Who is our clients?
+						- What they sick?
+						- Solutions
+            </textarea
+          >
+        </section>
+        <section data-background-color="#003C82">
+          <section data-markdown>
+            <textarea data-template>
+						### Who is our clients?
+						- Project Owners
+						- Developers
+						- Investores
+            </textarea>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+            ### What sick project owner?
+            ![](https://media.giphy.com/media/RyQ4BedI7bL5S/giphy.gif)  
 
-		<script src="js/reveal.js"></script>
+              - Quality team
+              - Project managing
+              - Investors Search
+            </textarea>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+            ### What sick Developer 
+            ![](https://media.giphy.com/media/BbzbxFMnqKGeA/giphy.gif)
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				hash: true,
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
-			});
-		</script>
-	</body>
+              - Find team of professionals
+              - Find interest project
+					</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+            ### What sick Investor ?
+            ![](https://media.giphy.com/media/2aM9CCwf2wPH1lwjq6/giphy.gif)
+
+              - Choose correct project
+              - Manage project
+              - Metrics
+					</textarea
+            >
+          </section>
+        </section>
+        <section data-background-color="#fff">
+          <section data-markdown>
+            <textarea data-template>
+						### Solutions 
+						- Platform for organize peoples
+						- Platform of managing
+						- Metrics for investores
+					</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+						### Organize Peoples 
+						- Search projects
+						- Publish vacantions
+						- Pick peoples
+						- Send proposals
+					</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+						### Managing 
+						- Planning project
+						- Tracking progress
+					</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+            ### Metrics
+            - Generate from progress
+            - Publish for investros
+            - Finanses docs
+					</textarea
+            >
+          </section>
+        </section>
+        <section data-markdown data-background-color="#FCFCFC">
+          <textarea data-template>
+            ## The End
+            ![](https://media.giphy.com/media/10bwZyYsCIxiA8/giphy.gif)
+					</textarea
+          >
+        </section>
+      </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        hash: true,
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/highlight/highlight.js" },
+          { src: "plugin/notes/notes.js", async: true },
+        ],
+      });
+    </script>
+  </body>
 </html>
